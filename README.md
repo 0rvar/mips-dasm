@@ -1,5 +1,5 @@
 # mips-dasm
-mips-dasm is a mips disassembler written in Java. It accepts lines of 32-bit numbers
+mips-dasm is a mips disassembler written in C. It accepts lines of 32-bit numbers
 that it decodes into their MIPS32 instruction equivalent, through stdin or input file.
 
 ## Requirements
