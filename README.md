@@ -22,4 +22,6 @@ To run it, do:
     make tests
 
 ## Supported instructions
-See instructions_test.c for a list of supported instructions
+Almost all instructions except for floating point are supported.
+
+See instructions_test.c for a complete list of supported instructions.
