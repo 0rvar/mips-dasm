@@ -6,24 +6,24 @@ that it decodes into their MIPS32 instruction equivalent, through stdin or input
 gcc or clang
 
 ## Getting started
-Build using make: 
+Build using make:
 
     make
-    
-    
+
+
 and then execute:
 
     ./mips-dasm [input.txt]
-    
+
 ## Usage
 The program takes one hexadecimal or decimal number per line. Example:
-    
+
     0x01398821
     0x71208821
     0x0229001a
     0x213104d2
     0x8d31fb2e
-    
+
 becomes
 
     1 (R-type) [  20547617:0x01398821] addu $s1, $t1, $t9
@@ -42,3 +42,6 @@ To run it, do:
 Almost all instructions except for floating point are supported.
 
 See instructions_test.c for a complete list of supported instructions.
+
+## License
+The code is licensed under CC0 - see LICENSE.txt

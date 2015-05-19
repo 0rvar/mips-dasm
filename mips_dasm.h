@@ -13,7 +13,7 @@ int mips_disassemble(mips_instruction_t *instruction_buffer, uint32_t number);
 
 static const char * const MIPS_REGISTER_NAMES[32] = {
     "$zero",    // Hardware constant 0
-    "$at",      // Reserved fosr assembler
+    "$at",      // Reserved for assembler
     "$v0",      // Return values
     "$v1",
     "$a0",      // Arguments
@@ -29,7 +29,7 @@ static const char * const MIPS_REGISTER_NAMES[32] = {
     "$t6",
     "$t7",
     "$s0",      // Saved values
-    "$s1",  
+    "$s1",
     "$s2",
     "$s3",
     "$s4",
@@ -61,7 +61,7 @@ static char * const MIPS_REGISTER_C_INSTRUCTION_NAMES[8][8] = {
 };
 
 static char * const MIPS_REGISTER_INSTRUCTION_NAMES[8][8] = {
-    {"sll", NULL, "srl", "sra", "sllv", NULL, "srlv", "srav"}, 
+    {"sll", NULL, "srl", "sra", "sllv", NULL, "srlv", "srav"},
     {"jr", "jalr"},
     {"mfhi", "mthi", "mflo", "mtlo"},
     {"mult", "multu", "div", "divu"},
