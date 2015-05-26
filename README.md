@@ -44,4 +44,4 @@ Almost all instructions except for floating point are supported.
 See instructions_test.c for a complete list of supported instructions.
 
 ## License
-The code is licensed under CC0 - see LICENSE.txt
+The code is licensed under GPLv3 - see LICENSE.txt
